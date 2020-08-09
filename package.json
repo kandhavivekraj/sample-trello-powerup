@@ -1,0 +1,17 @@
+{
+  "name": "books-trello",
+  "version": "0.0.1",
+  "description": "Trello power up for Zoho Books",
+  "main": "index.js",
+  "scripts": {
+    "build": "node prepareBuild.js"
+  },
+  "keywords": [
+    "trello"
+  ],
+  "author": "kandhavivekraj",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
