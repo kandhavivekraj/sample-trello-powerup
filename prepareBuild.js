@@ -11,7 +11,11 @@ fs.mkdirSync(outputPath);
 
 fs.mkdirSync( path.join(outputPath, 'js'));
 
+fs.mkdirSync( path.join(outputPath, 'html'));
+
 
 fs.copyFileSync(path.join(process.cwd(), 'index.html'), path.join(outputPath, 'index.html'));
 
 fs.copyFileSync(path.join(process.cwd(), 'js', 'client.js'), path.join(outputPath, 'js', 'client.js'));
+
+fs.copyFileSync(path.join(process.cwd(), 'html', 'estimate.html'), path.join(outputPath, 'html', 'estimate.html'));
